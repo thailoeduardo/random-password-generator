@@ -21,12 +21,10 @@ const copy_password = () => {
 
 dom_button.addEventListener("click", (e) => {
   e.preventDefault();
-  // console.log("click button");
   generate_password();
 });
 
 dom_button_copy.addEventListener("click", (e) => {
   e.preventDefault();
-  // console.log("click button");
   copy_password();
 });
